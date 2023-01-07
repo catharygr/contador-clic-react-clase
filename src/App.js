@@ -2,7 +2,7 @@ import './App.css'
 import freCodecamp from './imagenes/freecodecamp-logo.png'
 import Boton from './componentes/Boton'
 import Contador from './componentes/Contador'
-import React, { useState } from 'react'
+import React from 'react'
 
 class App extends React.Component {
   constructor() {
@@ -45,22 +45,6 @@ class App extends React.Component {
         </div>
       );
     }
-  
-
-  }
-
-
-
-  // const [numClics, setNumClics] = useState(0)
-
-  // const manejarClic = () => {
-  //   setNumClics(numClics + 1)
-  // }
-
-  // const reiniciarContador = () => {
-  //   setNumClics(0)    
-  // }
-
-
+}
 
 export default App;
